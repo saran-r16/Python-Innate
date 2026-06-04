@@ -1,0 +1,270 @@
+1. Accept a user's name and print a welcome message
+name = input("Enter your name: ")
+print("Welcome", name)
+
+O/P:
+Enter your name: Saran
+Welcome Saran
+
+2. Accept two numbers and display their sum.
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+sum = num1 + num2
+print("Sum =", sum)
+
+O/P: 
+Enter first number: 10
+Enter second number: 20
+Sum = 30
+
+3. Accept a student's name and marks and display them.
+name = input("Enter student name: ")
+marks = int(input("Enter marks: "))
+print("Student Name:", name)
+print("Marks:", marks)
+
+O/P: 
+Enter student name: Saran
+Enter marks: 85
+Student Name: Saran
+Marks: 85
+
+4. Accept a city name and print it in uppercase.
+city = input("Enter city name: ")
+print(city.upper())
+
+O/P:
+Enter city name: Chennai
+CHENNAI
+
+5. Take input for length and breadth and calculate area.
+length = float(input("Enter length: "))
+breadth = float(input("Enter breadth: "))
+area = length * breadth
+print("Area =", area)
+
+O/P:
+Enter length: 10
+Enter breadth: 5
+Area = 50.0
+
+6. Assign multiple values to multiple variables.
+a, b, c = 10, 20, 30
+print(a)
+print(b)
+print(c)
+
+O/P:
+10
+20
+30
+
+7. Assign the same value to three variables.
+a = b = c = 100
+print(a)
+print(b)
+print(c)
+
+O/P:
+100
+100
+100
+
+8. Exchange values of two variables.
+a = 10
+b = 20
+a, b = b, a
+print(a, b)
+
+O/P:
+20 10
+
+9.Calculate total marks using variables.
+m1 = 80
+m2 = 90
+m3 = 70
+total = m1 + m2 + m3
+print(total)
+
+O/P:
+240
+
+10.Store and display employee information.
+name = "Saran"
+age = 21
+print(name)
+print(age) 
+
+O/P:
+Saran
+21
+
+11.Create a string and print it.
+s = "Hello"
+print(s)
+
+O/P:
+s = "Hello"
+print(s)
+
+12.Print the first character of a string.
+s = "Python"
+print(s[0])
+
+O/P:
+P
+
+13.Print the last character of a string.
+s="Python"
+print(s[-1])
+
+O/P:
+n
+
+14.Find the length of a string.
+s="Python"
+print(len(s))
+
+O/P:
+6
+
+15.Convert a string to uppercase.
+s = "python"
+print(s.upper())
+
+O/P:
+PYTHON
+
+16.Convert a string to lowercase.
+s = "PYTHON"
+print(s.lower())
+
+O/P:
+python
+
+17.Reverse a string.
+s = "Python"
+print(s[::-1])
+
+O/P:
+nohtyP
+
+18. Check whether a character exists in a string.
+s = "Python"
+ch = "t"
+print(ch in s)
+
+O/P:
+True
+
+19. Count vowels in a string.
+s = "python"
+count = 0
+for i in s:
+    if i in "aeiou":
+        count += 1
+print(count)
+
+O/P:
+1
+
+20. Add two integers.
+a = 10
+b = 20
+print(a + b)
+
+O/P:
+30
+
+21. Multiply two floating-point numbers
+a = 2.5
+b = 4.0
+print(a * b)
+
+O/P:
+10.0
+
+22. Calculate simple interest
+p = 1000
+r = 5
+t = 2
+si = (p * r * t) / 100
+print(si)
+
+O/P:
+100.0
+
+23. Find the square and cube of a number.
+n = 5
+print("Square =", n*n)
+print("Cube =", n*n*n)
+
+O/P:
+Square = 25
+Cube = 125
+
+24. Calculate the average of three numbers.
+a = 10
+b = 20
+c = 30
+avg = (a + b + c) / 3
+print(avg)
+
+O/P:
+20.0
+
+25. Perform arithmetic operations on two numbers.
+a = 10
+b = 5
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+
+O/P:
+15
+5
+50
+2.0
+
+26. Create and display a complex number.
+c = 2 + 3j
+print(c)
+
+O/P:
+(2+3j)
+
+27. Find the largest of three numbers.
+a = 10
+b = 25
+c = 15
+print(max(a, b, c))
+
+O/P:
+25
+
+28. Create a list of 5 numbers.
+nums = [10, 20, 30, 40, 50]
+print(nums)
+
+O/P:
+[10, 20, 30, 40, 50]
+
+29. Print the first and last elements.
+nums = [10, 20, 30, 40, 50]
+print(nums[0])
+print(nums[-1])
+
+O/P:
+10
+50
+
+30. Add a new element to the list.
+nums = [10, 20, 30]
+nums.append(40)
+print(nums)
+
+O/P:
+nums = [10, 20, 30]
+nums.append(40)
+print(nums)
